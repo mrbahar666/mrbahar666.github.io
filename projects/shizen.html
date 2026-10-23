@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shizen — Spa Platform, Booking &amp; POS — MD Baharul Ali</title>
+<meta name="description" content="A complete operating system for a spa business: public website with online booking, a full admin studio, web POS and Windows desktop POS — one catalog of 149 products feeding the website, the counter and takeaway channels.">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="../index.html">
+      <img src="../assets/favicon.svg" alt="BA monogram">
+      <span class="bt"><b>MD Baharul Ali</b><span>Full-Stack Developer</span></span>
+    </a>
+    <input type="checkbox" id="navtoggle" aria-label="Toggle navigation">
+    <label class="burger" for="navtoggle" aria-hidden="true"><span></span><span></span><span></span></label>
+    <nav><a href="../index.html">Home</a><a href="../about.html">About</a><a href="../services.html">Services</a><a href="../projects.html" aria-current="page">Projects</a><a href="../contact.html">Contact</a><a class="hire" href="../contact.html">Hire me</a></nav>
+  </div>
+</header>
+
+<div class="wrap pagehead">
+  <div class="crumb"><a href="../projects.html">Projects</a> / Shizen</div>
+  <h1>Shizen — Spa Platform, Booking & POS</h1>
+  <p>A complete operating system for a spa business: public website with online booking, a full admin studio, web POS and Windows desktop POS — one catalog of 149 products feeding the website, the counter and takeaway channels.</p>
+</div>
+<div class="wrap">
+  <div class="case">
+    <aside class="rail">
+      <dl>
+        <div><dt>Role</dt><dd>Senior Full-Stack Developer</dd></div>
+        <div><dt>Status</dt><dd>Live — in daily use</dd></div>
+        <div><dt>Period</dt><dd>2026 — present</dd></div>
+        <div><dt>Tech stack</dt><dd>Next.js · TypeScript · Frappe / ERPNext · Python · MariaDB · Tauri</dd></div>
+        <div><dt>Live site</dt><dd><a href="https://shizenspa.com" target="_blank" rel="noopener">shizenspa.com</a></dd></div>
+      </dl>
+      <a class="btn sm" href="https://shizenspa.com" target="_blank" rel="noopener">Visit the live site</a>
+    </aside>
+    <div class="case-body">
+      <img class="heroimg" src="../assets/projects/site-shizen.jpg" alt="Shizen website homepage">
+      <h2>Overview</h2>
+      <div class="prose"><p>Shizen is a Japanese-inspired spa and salon in Uttara, Dhaka. When I took over its technology in January 2026, bookings, billing and the website lived in separate places: staff confirmed appointments from one screen, billed from another, and the website's services and prices had to be updated by hand. The business needed one system of record — change a price once, and have it correct everywhere a customer or a cashier sees it.</p>
+<p>I built that system as a single platform on Frappe and ERPNext with a Next.js public website. The website takes bookings and course registrations and presents the full service menu. Behind it, the Studio admin manages bookings, leads, offers, packages, services and prices, academy courses, gallery, testimonials and all site content — and every change goes live on the website within seconds. At the counter, a web POS handles guest bills, appointments, payments and staff shifts, and a Windows desktop POS serves the shop PC against the same backend.</p>
+<p>The detail that holds it together is the unified catalog: 149 products are managed once and published to the website, the POS and takeaway channels, each with per-channel availability and its own live flag. Bills can start from a walk-in, a phone call, Facebook or WhatsApp. An OTP-based password-reset flow protects staff accounts, and booking confirmations go out by email and SMS from the business's own self-hosted mail server, which I also set up and maintain on the same VPS.</p>
+<p>The platform is not a finished hand-off: I continue to run it — deployments, server care, backups and the daily stream of small changes a living business asks for. That continuity is the point of the design: one person who knows how every screen connects to every number.</p></div>
+      <h2>What it includes</h2>
+      <ul class="feat"><li><b>Online booking &amp; course registration</b> on the public website, feeding the admin directly</li>
+<li><b>Studio admin</b> — bookings, leads, offers, packages, services, prices, content and a built-in mail client</li>
+<li><b>Web POS + Windows desktop POS</b> — guest bills, appointments, payments and shifts on one backend</li>
+<li><b>Unified catalog</b> — 149 products managed once; 137 currently live on the website</li>
+<li><b>Multi-channel bill intake</b> — walk-in, phone, Facebook and WhatsApp orders in one flow</li>
+<li><b>Roles, shifts &amp; P&amp;L reporting</b> for owner-level visibility</li>
+<li><b>Self-hosted mail</b> (Postfix / Dovecot) with separate sender addresses per purpose, plus SMS notifications</li>
+<li><b>OTP password reset</b> — codes to email and phone, direct login preserved</li></ul>
+      <h2>Inside the system</h2><div class="gallery"><figure><img src="../assets/work/shizen-studio.jpg" alt="The Studio dashboard — bookings, leads, offers and packages at a glance." loading="lazy"><figcaption>The Studio dashboard — bookings, leads, offers and packages at a glance.</figcaption></figure>
+<figure><img src="../assets/work/shizen-pos-dashboard.jpg" alt="The web POS dashboard — today&#x27;s bills, payments and top services." loading="lazy"><figcaption>The web POS dashboard — today's bills, payments and top services.</figcaption></figure>
+<figure><img src="../assets/work/shizen-catalog.jpg" alt="The unified service catalog — one list feeding the website and both POS surfaces." loading="lazy"><figcaption>The unified service catalog — one list feeding the website and both POS surfaces.</figcaption></figure></div>
+      <div class="nextproj"><a href="crushmomo.html" style="text-align:right"><span class="dir">Next project</span>Crush Momo</a></div>
+    </div>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="../index.html">
+          <img src="../assets/favicon.svg" alt="BA monogram">
+          <span class="bt"><b>MD Baharul Ali</b><span>Full-Stack Developer</span></span>
+        </a>
+        <p>Large-scale web applications, ERP and POS platforms, e-commerce systems and AI tools — built and maintained in production.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://www.fiverr.com/md_baharul_ali" target="_blank" rel="noopener">Fiverr</a></li>
+          <li><a href="https://www.linkedin.com/in/md-baharul-ali-831b712b6/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/mrbahar666" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="mailto:baharul.bd.it@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base"><span>© 2026 MD Baharul Ali — Senior Full-Stack Developer</span><span>Dhaka, Bangladesh · Working worldwide</span></div>
+  </div>
+</footer>
+</body>
+</html>

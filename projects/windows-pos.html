@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windows POS Software — MD Baharul Ali</title>
+<meta name="description" content="Point-of-sale software I designed and built for the counter: fast billing, offline selling with automatic sync, inventory, shifts and reporting. In production today at Sushi Yaki and, in its current Tauri generation, at Shizen.">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="../index.html">
+      <img src="../assets/favicon.svg" alt="BA monogram">
+      <span class="bt"><b>MD Baharul Ali</b><span>Full-Stack Developer</span></span>
+    </a>
+    <input type="checkbox" id="navtoggle" aria-label="Toggle navigation">
+    <label class="burger" for="navtoggle" aria-hidden="true"><span></span><span></span><span></span></label>
+    <nav><a href="../index.html">Home</a><a href="../about.html">About</a><a href="../services.html">Services</a><a href="../projects.html" aria-current="page">Projects</a><a href="../contact.html">Contact</a><a class="hire" href="../contact.html">Hire me</a></nav>
+  </div>
+</header>
+
+<div class="wrap pagehead">
+  <div class="crumb"><a href="../projects.html">Projects</a> / Windows POS Software</div>
+  <h1>Windows POS Software</h1>
+  <p>Point-of-sale software I designed and built for the counter: fast billing, offline selling with automatic sync, inventory, shifts and reporting. In production today at Sushi Yaki and, in its current Tauri generation, at Shizen.</p>
+</div>
+<div class="wrap">
+  <div class="case">
+    <aside class="rail">
+      <dl>
+        <div><dt>Role</dt><dd>Designer & Developer — built by me</dd></div>
+        <div><dt>Status</dt><dd>In production</dd></div>
+        <div><dt>Period</dt><dd>Ongoing</dd></div>
+        <div><dt>Tech stack</dt><dd>Windows desktop (Tauri) · Web ERP integration · Local-first data + sync</dd></div>
+        
+      </dl>
+      <a class="btn sm" href="../contact.html">Discuss a similar build</a>
+    </aside>
+    <div class="case-body">
+      <img class="heroimg" src="../assets/projects/portfolio-pos.png" alt="Windows POS software poster">
+      <h2>Overview</h2>
+      <div class="prose"><p>A point-of-sale system has one unforgiving requirement: it cannot stop. When the internet drops in the middle of a dinner service or a retail rush, the counter still has to bill. The Windows POS software I build is designed around that moment — fast billing on the counter PC, and reliable operation whether or not the connection is alive.</p>
+<p>The software covers the full counter workflow: opening bills, adding items from a structured catalog, discounts and offers, payments, and end-of-day reporting, with inventory moving as items sell. Because it is offline-capable, sales continue locally and sync with the web ERP when the connection returns, so the business's numbers stay whole without the counter ever waiting on the network.</p>
+<p>This POS line runs in production in two forms today. At Sushi Yaki it works alongside the web ERP as the counter system for a multi-channel restaurant. At Shizen, the current generation ships as a Windows desktop application built with Tauri, against the same Frappe backend as the web POS — one catalog, one set of prices, two selling surfaces, with staff roles and shift handling on both. I design the billing flow for the person actually standing at the counter: few clicks, large targets, no dead ends.</p>
+<p>The sync model is deliberately conservative: the counter's local record is the source of truth for the sale, and the ERP reconciles against it — never the other way round. A bill taken during an outage is a real bill with a real number, and it appears in the owner's reports exactly once when the connection returns.</p></div>
+      <h2>What it includes</h2>
+      <ul class="feat"><li><b>Fast billing flow</b> — few clicks, large targets, no dead ends</li>
+<li><b>Offline selling + sync</b> — the counter never waits on the network</li>
+<li><b>Inventory</b> that moves as items sell</li>
+<li><b>Discounts, offers and payments</b> in the billing flow</li>
+<li><b>Shifts and end-of-day reporting</b></li>
+<li><b>Role-based access</b> for cashiers and managers</li></ul>
+      <h2>Inside the system</h2><div class="gallery"><figure><img src="../assets/work/shizen-newbill.jpg" alt="Bill intake in the current-generation POS — guest, source channel and service search in one modal." loading="lazy"><figcaption>Bill intake in the current-generation POS — guest, source channel and service search in one modal.</figcaption></figure></div>
+      <div class="nextproj"><a href="manufarms.html"><span class="dir">Previous project</span>Manu Farms</a><a href="poultry-manager.html" style="text-align:right"><span class="dir">Next project</span>Poultry Manager</a></div>
+    </div>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="../index.html">
+          <img src="../assets/favicon.svg" alt="BA monogram">
+          <span class="bt"><b>MD Baharul Ali</b><span>Full-Stack Developer</span></span>
+        </a>
+        <p>Large-scale web applications, ERP and POS platforms, e-commerce systems and AI tools — built and maintained in production.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://www.fiverr.com/md_baharul_ali" target="_blank" rel="noopener">Fiverr</a></li>
+          <li><a href="https://www.linkedin.com/in/md-baharul-ali-831b712b6/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/mrbahar666" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="mailto:baharul.bd.it@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base"><span>© 2026 MD Baharul Ali — Senior Full-Stack Developer</span><span>Dhaka, Bangladesh · Working worldwide</span></div>
+  </div>
+</footer>
+</body>
+</html>
